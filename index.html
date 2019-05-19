@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>CrystalClicker</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css/">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+    <div class= "containerB">
+      <div id= "crystalC">
+        <h1 id= "crystalHeader">Crystals Collector!</h1>
+      </div>
+      <div class="container">
+        <ul>
+          <li class= "rules">You will be given a random number at the start of the game.</li>
+          <li class= "rules">There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+          <li class= "rules">You win the game by matching your total score to the random number, and you lose if your total score goes above the random number.</li>
+          <li class= "rules">The value of each crystal will be hidden from you until you click on it and see your score change.</li>
+          <li class= "rules">Each time a new round starts, the game will change the values of each crystal.</li>
+        </ul>
+      </div>
+      <section>
+        <div id="compNum">
+          <h2 id="cNumber">0</h2>
+        </div>
+        <div id="Ws_Ls">
+          <p id="wins">Wins: 0</p>
+          <p id="losses">Losses: 0</p>
+        </div>
+      </section>
+        <div class="wrapper">
+          <button class="btn1 crystal-btn" value="1"></button><img src="assets/images/diam.png"/>
+          <button class="btn2 crystal-btn" value="10"></button><img src="assets/images/emer.png"/>
+          <button class="btn3 crystal-btn" value="20"> </button><img src="assets/images/ruby.png"/>
+          <button class="btn4 crystal-btn" value="30"></button><img src="assets/images/saph.png"/>
+        </div>
+        <p id="yourTotal">Your Total Score is:</p>
+        <br>
+        <div id="score">
+          <h2 id="scoreTotal">0</h2>
+        </div>
+    </div>
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src= "assets/javascript/game.js"></script>
+</body>
+</html>
