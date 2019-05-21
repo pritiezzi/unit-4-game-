@@ -65,4 +65,8 @@ $(document).ready(function() {
         else if (score > cpuNumber) {
             loser();
         };
-    });
+   
+    
+    })});
+
+
